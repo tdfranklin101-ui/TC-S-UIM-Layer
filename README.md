@@ -1,22 +1,27 @@
-# TC-S-UIM-Layer
+# TC-S Network UIM Layer
 
-Intent scoring engine with Ed25519 signatures
+Unified Intelligence Mesh - AI-to-AI handshake protocol layer.
 
-## Part of TC-S Network Platform
+## Features
 
-This repository is part of the TC-S Network 14-repository microservices architecture. All services connect to a shared Supabase database and work together as a cohesive platform.
+- AI system handshake protocol
+- Energy tracking for AI interactions
+- Cryptographic signature verification
+- Ethics score tracking
 
 ## Setup
 
 ```bash
 npm install
+cp .env.example .env
 npm run dev
 ```
 
-## Documentation
+## API Endpoints
 
-See the main [TC-S Network documentation](https://github.com/tdfranklin101-ui/TC-S-Network-Shared) for complete setup instructions.
+- `POST /api/uim/handshake` - Register AI handshake
+- `GET /api/uim/handshakes` - List recent handshakes
 
 ## License
 
-MIT © TC-S Network Foundation
+MIT - TC-S Network Foundation
